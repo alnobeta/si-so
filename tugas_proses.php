@@ -189,6 +189,6 @@ $pdf->tembusan($teks3);
 $date=date("d-M-Y  h:i:s");
 $pdf->legalitas('printed on: '.$date.' by '.$nama_pemohon );
 
-$pdf->Output('surattugas.pdf');
+$pdf->Output('surattugas.pdf','D');
 
 ?>
