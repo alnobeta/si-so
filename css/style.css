@@ -1,0 +1,155 @@
+body {
+	background-color: #red;
+	font-family: Gill Sans MT;
+	background-image: url(images/1.jpg);
+	background-repeat: no-repeat;
+	
+}
+*{padding: 0;margin: 0;}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover, a.hover{
+	text-decoration: none;
+	color: #2E3639;
+}
+
+#link 
+a:hover, a.hover{text-decoration: none;color: #ED1C24;}
+
+h1, h2, h3 {margin: 0;}
+
+#index{
+	width: 95%;
+	margin: auto;
+	text-align: justify;
+	color: white;
+	margin-bottom: 30px;
+	margin-top: 80px;
+	padding: 20px;
+
+}
+
+#about{
+	width: 95%;
+	margin: auto;
+	text-align: center;
+	color: white;
+	margin-bottom: 80px;
+	margin-top: 80px;
+	
+	height: 400px;
+}
+
+	
+/*membuat gambar pada menu link rata tengah*/
+/*===================================================*/
+.img {
+  margin-left:90px;
+  padding-left: 20px;
+  padding-top: 80px;
+  float:left;
+  text-align: center;
+
+}
+.desc{
+  text-align:center;
+  font-weight:normal;
+  width:120px;
+  margin:5px;
+}
+/*===================================================*/
+
+
+#login{
+	width: 310px;
+	margin: auto;
+	margin-top: 130px;
+}
+
+#judul{
+
+	background-color: #ba1212;
+	padding: 5px;
+	color: white;
+	width: 300px;
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+	box-shadow: 0 0 20px #040505;
+}
+
+#box{
+
+	background-color: #49cc99;
+	padding: 5px;
+	color: white;
+	width: 300px;
+	text-align: center;
+	border-radius: 0px 0px 10px 10px;
+	box-shadow: 0 0 20px #040505;
+}
+
+/**mengubah tampilan submit**/
+input:required:invalid,
+input:required:valid {
+    background-position: 97.5% center;
+    background-repeat: no-repeat;
+}
+
+input:required:invalid {background-image: url("images/salah.png");}
+input:required:valid {background-image: url("images/benar.png");}
+
+input[type=submit],
+input[type=reset] {
+
+	display: inline-block;
+	width: 115px;
+	white-space: nowrap;
+	background-color: #ddd;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
+	border: 1px solid #777;
+	padding: 0 1.5em;
+	margin: 0.5em;
+	font: bold 1em/2em Arial, Helvetica;
+	text-decoration: none;
+	color: #333;
+	text-shadow: 0 1px 0 rgba(255,255,255,.8);
+	-moz-border-radius: .2em;
+	-webkit-border-radius: .2em;
+	border-radius: .2em;
+	box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+
+}
+
+input[type=submit]:active,  
+input[type=reset]:active{
+box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+position: relative;
+top: 1px;
+
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover
+{
+background-color: #eee;       
+background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#ddd));
+}
+
+select,
+input[type=text], input[type=password], input[type=email]{
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+}
+.judul a {color : blue;}
+.judul a:link {color : purple;}
+.judul a:visited {color : blue;}
+
+.judul a:active{color : red;}
+
+

@@ -1,0 +1,148 @@
+body {
+	background-color: white;
+	opacity: 50;
+	background-image: url(images/1.jpg);
+	background-color: #E7E7E7;
+	font-family: calibri;
+	background-repeat:no-repeat;
+	width:100%;
+}
+*{padding: 0;margin: 0;}
+
+a{
+	text-decoration: none;
+
+}
+
+a:hover, a.hover{
+	text-decoration: none;
+	color: #2E3639;
+}
+
+#content
+a:hover, a.hover{text-decoration: none;color: #ED1C24;}
+
+h1, h2, h3 {margin: 0;}
+
+#container{
+	margin: auto;
+	margin-bottom: 80px;
+	
+}
+
+#header{
+	
+	background-color: white;
+	background-image: url(images/bg.jpg);
+	padding: 5px;
+	text-align: left;
+	box-shadow: 0 0 10px #040505;
+	margin-top: 38px;
+	position: fixed;
+	width: 100%;
+	font-size: 10;
+}
+
+#content{
+	max-width: 98%;
+	padding-top: 120px;
+}
+
+
+
+/**mengubah tampilan submit**/
+input:required:invalid,
+input:required:valid {
+    background-position: 97.5% center;
+    background-repeat: no-repeat;
+}
+
+input:required:invalid {background-image: url("images/salah.png");}
+input:required:valid {background-image: url("images/benar.png");}
+
+input[type=submit],
+input[type=reset] {
+
+	display: inline-block;
+	width: 115px;
+	white-space: nowrap;
+	background-color: #ddd;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
+	border: 1px solid #777;
+	padding: 0 1.5em;
+	margin: 0.5em;
+	font: bold 1em/2em Arial, Helvetica;
+	text-decoration: none;
+	color: #333;
+	text-shadow: 0 1px 0 rgba(255,255,255,.8);
+	-moz-border-radius: .2em;
+	-webkit-border-radius: .2em;
+	border-radius: .2em;
+	box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+
+}
+
+input[type=submit]:active,  
+input[type=reset]:active{
+box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+position: relative;
+top: 1px;
+
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover
+{
+background-color: #eee;       
+background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#ddd));
+}
+
+select,
+input[type=text], input[type=password], input[type=email]{
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+}
+
+/* Menu atas */
+.fly1{
+	font-size: 13px;
+	height: 65px;
+	margin-top: 42px;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	padding-top: 2px;
+}
+.fly1 .content1 ul{
+	list-style-type: none;
+	float:right;
+	padding: 0px;
+	text-align: center;
+	padding-right: 330px;
+}
+.fly1 .content1 ul li{
+	display: inline;
+}
+.fly1 .content1 ul li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px 10px;
+	color: #f8f8f8;
+	font-weight: bold;
+}
+.fly1 .content1 ul li a:hover, .fly1 .content1 ul li a.active{
+	background: none;
+	height: 50px;
+}
+
+.fly1 .content1 .ribbon:hover{
+	background: #BA1212;
+}
+.content1{
+	max-width: 1000px;
+	margin: 0 auto;
+}

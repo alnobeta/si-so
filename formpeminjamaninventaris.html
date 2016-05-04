@@ -1,0 +1,64 @@
+<html>
+<head>
+	<title>Sistem Informasi Surat Online</title>
+	<link rel="stylesheet" type="text/css" href="stylesurattugas.css">
+	<link rel="stylesheet" type="text/css" href="960_12_col.css">
+</head>
+<body>
+		<div class = "container_12">
+    	<div class = "grid_12"></div>
+    		<div class = "grid_1 pull_4">
+    			<div class = "header">
+					<img src="Filkom.png">	
+				</div>
+		</div>
+	</div>
+	
+
+		<div class = "box1">
+		<div class = "container_12">
+    		<div class = "grid_12"></div>
+				<div class = "grid_6 pull_1">
+					<ul id="menu">
+						<li><a href="pilihan.html">Jenis Surat</a></li>
+						
+	    			</ul>
+	    		</div>
+	    		<div class = "grid_2 prefix_4">
+					<ul id="menu">
+						<li ><a href="logout.php">Sign Out</a></li>
+					</ul>	   	   
+				</div>
+		</div>
+	</div>
+	
+	<div class="message warning">
+	<div class="inset">
+	<div class="box2">
+		<h1>Input Data Peminjaman Inventaris</h1>
+		 <div class="alert-close"> </div> 			
+			</div>
+				<form action = "pinjam_proses.php" method="POST">
+				Nama  : <br>
+				<input type="text" name="nama_pemohon" class="text" placeholder="Nama" required><br>
+				Tanggal : <br>
+				<input type="date" name="tanggal" class="text" placeholder="Tanggal" required><br>
+				Barang Yang Dipinjam : <br>
+				<textarea type="text" name="nama_tempat" placeholder="Barang yang dipinjam" required></textarea> <br>
+				Jumlah Barang : <br>
+				<input type="date" name="jumlah_barang" class="text" placeholder="0" required><br> 
+				<input type="submit" name= "action" value="submit">	
+		</form>
+	
+			</div>					
+	</div>
+	</div>
+
+	<div class = "footer">
+		<br>
+		Copyright &copy; 2015 - Project Pemprogaman Web
+	</div>
+
+<div style="clear:both"></div>
+</body>
+</html>
